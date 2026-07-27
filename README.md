@@ -1,3 +1,5 @@
+For any questions or to just chat, join our community on Discord at https://discord.gg/dMEXtRYR38
+
 # How to use
 1. Download the windows copy of 1v1.LOL Reloaded from their site
 2. Download and unzip our 1v1Runner and put org.sh inside of the extracted game folder
