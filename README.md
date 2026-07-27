@@ -16,4 +16,4 @@ bash 1v1lol-launcher.sh
 ```
 
 Your game should launch!
-ALL CREDITS TO @hugkiro ON DISCORD
+ALL CREDITS TO @hugkiro ON DISCORD.
