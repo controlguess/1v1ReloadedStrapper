@@ -6,17 +6,22 @@ cd "$SCRIPT_DIR"
 
 export WINEPREFIX="$HOME/.wine"
 
-echo "[?] Attempting to launch..."
+echo "[?] Attempting to launch with optimized flags..."
 
-# Try common names
+export WINEFSYNC=1
+export WINEESYNC=1
+export WINE_LARGE_ADDRESS_AWARE=1
+export DXVK_FRAME_RATE=60
+export DXVK_LOG_LEVEL=none
+
 if [ -f "1v1LOL.exe" ]; then
-    echo "[!] Starting 1v1.LOL Reborn..."
+    echo "[!] Starting 1v1.LOL Reloaded..."
     wine 1v1LOL.exe
 elif [ -f "1v1_LOL.exe" ]; then
-    echo "[!] Starting 1v1.LOL Reborn..."
+    echo "[!] Starting 1v1.LOL Reloaded..."
     wine 1v1_LOL.exe
 else
-    echo "[ERROR] Could not find any files for 1v1.LOL Reborn!"
+    echo "[ERROR] Could not find any files for 1v1.LOL Reloaded!"
     echo "[?] Files in current directory:"
     ls -la *.exe 2>/dev/null || echo "None (1v1LOL.exe or 1v1_LOL.exe needed)"
     exit 1
