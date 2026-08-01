@@ -6,7 +6,7 @@
 </p>
 
 # How to install 1v1Runner
-1. Go to [Releases](github.com/controlguess/1v1ReloadedStrapper/releases) and download the latest `1v1Runner Installer`
+1. Go to [Releases](https://github.com/controlguess/1v1ReloadedStrapper/releases) and download the latest `1v1Runner Installer`
 2. Open a terminal in the location and run `chmod +x 1v1Runner_Installer.sh`
 3. If that clears with no errors, run `bash 1v1Runner_Installer.sh`
 4. After the installer is complete, run `1v1runner` in a new terminal
