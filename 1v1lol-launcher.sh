@@ -6,13 +6,20 @@ cd "$SCRIPT_DIR"
 
 export WINEPREFIX="$HOME/.wine"
 
+echo "[?] Latest update: 8/1/26"
 echo "[?] Attempting to launch with optimized flags..."
 
 export WINEFSYNC=1
 export WINEESYNC=1
 export WINE_LARGE_ADDRESS_AWARE=1
+
+export WINEDEBUG=-all
+
 export DXVK_FRAME_RATE=60
 export DXVK_LOG_LEVEL=none
+
+export WINE_FULLSCREEN_FSR=1
+export WINE_FULLSCREEN_FSR_STRENGTH=5
 
 if [ -f "1v1LOL.exe" ]; then
     echo "[!] Starting 1v1.LOL Reloaded..."
